@@ -74,7 +74,7 @@
       .social {
         position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
         left: 0; /* Establecemos la barra en la izquierda */
-        top: 249px; /* Bajamos la barra 200px de arriba a abajo */
+        top: 291px; /* Bajamos la barra 200px de arriba a abajo */
         z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
     }
      
@@ -84,8 +84,8 @@
      
         .social ul li a {
             display: inline-block;
-            color:#fff;
-            background: #000;
+            color:black;
+            background: white;
             padding: 10px 15px;
             text-decoration: none;
             -webkit-transition:all 500ms ease;
@@ -100,7 +100,7 @@
         .social ul li .icon-mail {background: #666666;}
      
         .social ul li a:hover {
-            background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+            background: white; /* Cambiamos el fondo cuando el usuario pase el mouse */
             padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
         }
 
