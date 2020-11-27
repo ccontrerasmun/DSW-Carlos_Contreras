@@ -5,3 +5,11 @@ footer{
     background-color: rgb(3, 3, 34);
     color: oldlace;
 }
+.container {
+    padding: 30px;
+    text-align: center;
+    background: #005883;
+    color: white;
+    font-size: 30px;
+  }
+  
