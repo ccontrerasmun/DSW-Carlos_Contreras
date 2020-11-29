@@ -43,6 +43,7 @@
                     <a class="dropdown-item" href="recurso2.html">Recursos 2</a>
                 </div>
             </li>
+
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                     Autor
@@ -68,34 +69,62 @@
     </nav>
 
     <!-- jumbotron -->
-
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="Imagenes\UNAD.png" class="float-left">
-                </div>
-                <div class="col-sm-4">
-                    <h1>Conceptos Básicos de HTML</h1>
-                    <p>Autoevaluación 2</p>
-                </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="
+    margin-top: 50px;
+     " >
+       
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://assets.phenompeople.com/CareerConnectResources/prod/PHILUS/images/profile-blue-1553186691828.png" style="height: 225px;" class="d-block w-100" alt="...">
+           
+            <div class="carousel-caption d-none d-md-block">
+                <img src="Imagenes\UNAD.png"   class="float-left">
+                <h1>Evaluación del sitio</h1>
+                <p>Evaluación</p>
             </div>
+          </div>
+        
         </div>
-    </div>
-    <!-- seccion principal -->
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    <br>
+
+    
+    <!-- seccion principal -->s
 
     <div class="container">
+        <!--breadcrumb -->
+        <nav aria-label="breadcrumb" style="background: white;">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Recurso 1</li>
+            </ol>
+          </nav>
+
         <div class="row">
             <div class="col-sm-8">
-                <h3>Autoevaluación</h3>
-                <iframe width="795" height="690" frameborder="0" src="https://es.educaplay.com/juego/7695775-crucigrama_html.html"></iframe>
+                <h3>Evaluación del sitio</h3>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h3>introducción</h3>
+                        <iframe src="Documentacion\Matriz-EvalSite.pdf" frameborder="0" height="400" width="600"></iframe>
+                    </div>
             </div>
+            
             
         </div>
     </div>
     <footer>
         <br>
-        <p> Todos lo derechos reservados CACM, Noviembre 4 de 2020</p>
+        <p> Todos lo derechos reservados CACM, Noviemnbre 5 de 2020</p>
         <br>
     </footer>
 
